@@ -1,0 +1,80 @@
+
+.form-create-chat {
+    max-width: 600px; 
+    width: 100%; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #1e1e1e; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+  }
+  
+  .form-create-chat h2 {
+    text-align: center;
+    color: #8a2be2; 
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+  }
+  
+  .form-group Label {
+    font-size: 16px;
+    color: #8a2be2; 
+  }
+  
+  .form-group Input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #8a2be2; 
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .form-group Input:focus {
+    border-color: #6a1b9a; 
+    outline: none; 
+  }
+  
+  button {
+    padding: 12px;
+    background-color: #8a2be2; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #6a1b9a; 
+  }
+  
+  button:active {
+    background-color: #4a148c; 
+  }
+  
+  .form-create-chat .login-link {
+    text-align: center;
+  }
+  
+  .form-create-chat .login-link a {
+    color: #8a2be2;
+    text-decoration: none;
+  }
+  
+  .form-create-chat .login-link a:hover {
+    text-decoration: underline;
+  }
+  
+  

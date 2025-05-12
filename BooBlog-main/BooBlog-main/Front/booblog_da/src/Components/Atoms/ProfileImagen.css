@@ -1,0 +1,16 @@
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #4f3a60;
+    align-content: center;
+}
+.profile-pic-editable {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    align-items: center;
+    object-fit: cover;
+    border: 2px solid #4f3a60;
+}
