@@ -7,16 +7,20 @@ import HeaderImage from "../Atoms/HeaderImagen";
 const Card = ({ title, text, imgSrc, date }) => {
   return (
     <div className="card">
+
       <div className="card-body">
       <Link to="/profile">
       <HeaderImage src="/imagenes/perfil.jpg" alt="Perfil" />
       </Link>
+      <Link to="/publicacion">
         <h5 className="card-title">{title}</h5>
+        </Link>
         <p className="card-text">{text}</p>
         <p className="card-text">
           <small className="text-muted">Last updated {date}</small>
         </p>
       </div>
+
       <img className="card-img-bottom" src={imgSrc} alt="Card image" />
     </div>
   );

@@ -11,6 +11,7 @@ const Header = () => {
       <Link to="/">
       <Title text="BooBlog" level={2} />
       </Link>
+            <Link to="/np">Nueva Publicacion</Link>
       <div className="user-menu d-flex align-items-center">
       <Link to="/profile">
       <HeaderImage src="/imagenes/perfil.jpg" alt="Perfil" />

@@ -1,0 +1,21 @@
+.container-fluid {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    margin-top: 0px;
+  }
+  
+  .image-side {
+    flex: 1;
+    height: 100%;
+    margin-top: -140px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .side {
+    flex: 1; 
+    width: 750px;
+    height: auto;
+  }

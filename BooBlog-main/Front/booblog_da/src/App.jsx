@@ -5,6 +5,8 @@ import Profile from './Components/Pages/Profile';
 import Registrer from './Components/Pages/Registrer';
 import Login from './Components/Pages/Login';
 import CreateChat from './Components/Pages/CreateChat';
+import NP from './Components/Pages/NP';
+import VerPublicacion from './Components/Pages/Publicaion';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/registrer" element={<Registrer />} />
         <Route path="/login" element={<Login />} />
         <Route path="/createchat" element={<CreateChat />} />
+        <Route path="/np" element={<NP />} />
+        <Route path="/publicacion" element={<VerPublicacion />} />
         {/* Otras rutas */}
       </Routes>
     </Router>
