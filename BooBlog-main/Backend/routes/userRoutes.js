@@ -4,10 +4,9 @@ const multer = require('multer');
 const path = require('path');
 const userController = require('../controllers/userController.js');
 
-// Configuración de almacenamiento
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
-    cb(null, 'uploads/'); // asegúrate de que esta carpeta exista
+    cb(null, 'uploads/');
   },
   filename: (req, file, cb) => {
     cb(null, Date.now() + '-' + file.originalname);
