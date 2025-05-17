@@ -11,7 +11,7 @@
   
   form {
     width: 100%;
-    max-width: 600px;
+    max-width: 1000px;
   }
   
   .form-group {
@@ -24,4 +24,57 @@
     color: #8a2be2;
   }
   
+  .post-container {
+    background-color: #0a0a0a;
+    color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 2rem ;
+    font-family: sans-serif;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.1);
+  }
   
+  .post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .profile-pic {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 12px;
+    border: 2px solid #4f3a60;
+  }
+  
+  .post-info .post-nombre {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .post-info .post-titulo {
+    font-size: 0.85rem;
+    color: #ccc;
+    margin: 2px 0 0 0;
+  }
+  
+  .post-texto {
+    margin: 0 0 1.5rem 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .post-image img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  .post-footer {
+    margin: 1px;
+    padding: 1px;
+  }
+
