@@ -25,7 +25,7 @@ const FormPerfil = () => {
 
         <FormProfileGroup label="Comentario" type="text" id="comentario" name="comentario" placeholder="comentario"readOnly/>
 
-        <Button type="submit">Comentar</Button>
+        <Button type="submit"></Button>
       </form>
     </div>
   );

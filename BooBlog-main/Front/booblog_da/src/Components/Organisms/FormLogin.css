@@ -1,7 +1,8 @@
 .form-side {
     flex: 1;
-    margin-top: 80px;
-
+    margin-top: -70px;
+    height: 160vh;
+    padding: 250px 270px;
     background-color: #0a0a0a;
     display: flex;
     flex-direction: column;
